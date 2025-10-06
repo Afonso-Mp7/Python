@@ -1,0 +1,8 @@
+m = int (input ("Quais foram os metros percorridos?"))
+dam = (m**-1)
+hm = (m**-2)
+km = (m**-3)
+dm = (m**1)
+cm = (m**2)
+mm = (m**3)
+print (f'Percorreste "{mm}"milimetros,"{cm}"centimetros,"{dm}"decimetros,"{dam}"decametros,"{hm}"hectometros e"{km}"kilometros."')
