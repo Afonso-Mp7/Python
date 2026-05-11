@@ -1,0 +1,19 @@
+from tkinter import *
+import tkinter as tk
+
+root = Tk()
+root.title('Bernardo é mal educado')#verdade absoluta
+root.geometry('1100x400+300+300')#algo que o Bernardo é horrível
+
+root.wm_resizable(width=False, height=True)
+button1 = tk.Button (root, text="Carrega para bater no Bernardo!")
+button1.place(x=100, y=100)
+button2 = tk.Button (root, text ="Carrega para salvá-lo (não faças)")
+button2.place (x=50, y=50)
+label = tk.Label (root, text = "Escreve o teu número bancário")
+label.place (x=500, y=1)
+entry = tk.Entry (root)
+entry.place (x=500, y=50)
+verde = '#394aab'
+root.configure (bg=verde)
+root.mainloop()
